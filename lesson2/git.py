@@ -43,6 +43,9 @@
     git push --set-upstream origin <branch_name> - скопировать в хаб и назначить удаленную ветку
     git push -u origin <branch_name> - назначить удаленную ветку - тоже самое
 
+слияние веток
+    git merge hotfix - влить hotfix в текущую
+
 соединить с удаленным  репозиторием
     git remote - список удаленных
     git remote add <name> <url> - name обычно делают - origin
