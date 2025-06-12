@@ -10,27 +10,8 @@
     тысяч - 21
     сотни - 2
     десятки - 3
-    еденицы - 4
+    единицы - 4
 '''
 
-# -----------------1
-number = int(input("Введите число: "))
-
-thousands = number // 1000
-hundreds = (number // 100) % 10
-tens = (number // 10) % 10
-units = number % 10
-
-print(f"тысяч - {thousands}")
-print(f"сотен - {hundreds}")
-print(f"десятков - {tens}")
-print(f"единиц - {units}")
 
 
-# --------------------2
-number = int(input("Введите число: "))
-print("десятки тысяч: ", number // 10000)
-print("тысячи: ", number // 1000 % 10)
-print("сотни: ", number // 100 % 10)
-print("десятки: ", number // 10 % 10)
-print("единицы: ", number % 10)
