@@ -174,14 +174,17 @@ print(b)
 
 # ctrl+c - остановить программу в любой момент
 
-name = input("Как твое имя: ")
-# print("Привет", name)
-age = int(input("Возраст: "))
-print(age, type(age))
-year = 2025 - age
-print(f"Привет {name} тебе {age} лет. \nТы родился в {year} году.")
+# name = input("Как твое имя: ")
+# # print("Привет", name)
+# age = int(input("Возраст: "))
+# print(age, type(age))
+# year = 2025 - age
+# print(f"Привет {name} тебе {age} лет. \nТы родился в {year} году.")
 
-
+a = 1
+print(isinstance(a, int))
+print(isinstance("b", int))
+print(isinstance("b", str))
 
 
 
