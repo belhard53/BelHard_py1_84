@@ -118,5 +118,22 @@ b = a.translate(b)
 print(b)
 
 
+# кодировка
+
+a = b"Hello"
+print(a)
+# a = a.decode()
+a = a.decode("utf-8")
+print(a)
+b = "Hello Пайтон"
+# b = b.encode()
+b = b.encode("utf-8")
+print(b)
+c = b.decode()
+print(c)
+
+
+
+
 
 
